@@ -58,7 +58,29 @@ body {
   padding-left: 10px;
 }
 
+.prodList {
+  display: flex;
+}
+
+.prodThumb {
+  width: 160px;
+  align-self: flex-start;
+}
+
 .prodImg {
   width: 250px;
   align-self: flex-start;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 18px;
+}
+.close svg {
+  color: white;
+  fill: white;
+  width: 25px;
 }
