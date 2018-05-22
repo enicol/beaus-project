@@ -2,6 +2,7 @@
     "name": "beaus",
     "version": "0.1.0",
     "license": "MIT",
+    "homepage": "https://enicol.github.io/beaus-project/",
     "dependencies": {
       "react": "^16.3.2",
       "react-dom": "^16.3.2",
