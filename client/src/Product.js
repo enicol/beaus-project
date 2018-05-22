@@ -18,8 +18,7 @@ class Product extends Component {
 
     render() {
         return(
-            <div className="container">
-                <h1 className="prodTitle">{ this.props.title }</h1>
+            <div className="itemContainer">
                 <div className="content">
                     <img className="prodImg" src={this.props.imgLink} alt={`${this.props.title}bottle`} />
                     <div className="prodDesc">{ this.props.description }</div>
